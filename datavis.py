@@ -19,6 +19,10 @@ files = [
         "name": "Room 5",
         "file": "2 - BP Room 15-starts-2023-10-15-17-15-00-ends-2024-01-17-09-51-35.csv"
     },
+    {
+        "name": "Gallery",
+        "file": "5 Gallery-starts-2023-11-01-17-20-00-ends-2024-01-17-12-36-30.csv"
+    }
 ]
 
 def make_graph(file_info):
@@ -44,4 +48,5 @@ def make_graph(file_info):
 
 make_graph(files[1])
 make_graph(files[0])
-st.image("sensormap.png")
+make_graph(files[2])
+st.image("sensormap3.png")

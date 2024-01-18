@@ -7,8 +7,9 @@ import altair as alt
 
 st.title("Temp/Humidity Data - Blue Paradox")
 st.text("""The following is roughly three months of temperature and humidity data
-for the Blue Paradox exhibit. Two sensors are shown - one between the Pulse Point
-and room 5, and one in the main Rotunda (Room 1). See map below.""")
+for the Blue Paradox exhibit. Three sensors are shown - one between the Pulse Point
+and room 5, one in the main Rotunda (Room 1), and one in the National Geographic
+gallery (entryway). See map below.""")
 
 files = [
     {
